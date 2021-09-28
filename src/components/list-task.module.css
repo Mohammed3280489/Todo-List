@@ -1,0 +1,101 @@
+.listItem {
+  padding: 20px;
+  border-bottom: none;
+  background-color: #1de90f;
+  margin-bottom: 20px;
+  border-radius: 13px;
+}
+.plus_icon {
+  margin-top: 30px;
+  text-align: center !important;
+  font-size: 30px;
+}
+
+.task_active {
+  background-color: #f0eeee5c;
+  padding: 10px 14px;
+  border-bottom: none !important;
+  border-radius: 13px;
+  margin-bottom: 12px;
+  z-index: -1;
+}
+
+.task_Completed {
+  padding: 10px 14px;
+  border-bottom: none;
+  background-color: #1de90f;
+  border-radius: 13px;
+  margin-bottom: 12px;
+  z-index: -1;
+}
+.task_Cancled {
+  padding: 10px 14px;
+  border-bottom: none;
+  background-color: #eb3737;
+  border-radius: 13px;
+  margin-bottom: 12px;
+  z-index: -1;
+}
+.p_notActive {
+  margin: 0px;
+  font-size: 8px;
+  font-weight: 600;
+  color: white;
+}
+.p_Active {
+  margin: 0px;
+  font-size: 8px;
+  font-weight: 400;
+  color: #d3d3d3;
+}
+
+.p_discription_notactive {
+  margin: 0px;
+  color: white;
+  font-weight: 600;
+  font-size: 10px;
+}
+.p_discription_active {
+  margin: 0px;
+  color: black;
+  font-weight: 600;
+  font-size: 10px;
+}
+
+.Delete_Icon {
+  background-color: #eb3737;
+  padding: 7px;
+  border-radius: 23px;
+  font-size: 9px;
+  color: white;
+  cursor: pointer;
+  margin-left: 10px;
+}
+.Delete_Icon_cancled {
+  background-color: white;
+  padding: 7px;
+  border-radius: 23px;
+  font-size: 9px;
+  color: #eb3737;
+  cursor: pointer;
+  margin-left: 10px;
+}
+.Edite_Icon {
+  background-color: #4292d8;
+  padding: 7px;
+  border-radius: 23px;
+  font-size: 9px;
+  color: white;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.checked_Icon {
+  background-color: #1de90f;
+  padding: 7px;
+  border-radius: 23px;
+  font-size: 9px;
+  color: white;
+  cursor: pointer;
+  margin-left: 10px;
+}

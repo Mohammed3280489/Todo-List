@@ -1,0 +1,51 @@
+.home {
+  justify-content: center !important;
+  width: 100%;
+}
+.overlay {
+  height: 100vh;
+  background-color: rgba(161, 161, 161, 0.185);
+  width: 100%;
+  z-index: 2;
+  position: absolute;
+  top: 0;
+  filter: blur(2px);
+}
+
+.home_h3 {
+  text-align: center !important;
+  color: #4e4e4e;
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.content {
+  width: 100% !important;
+  margin-top: 60px;
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    width: 92%;
+    margin: auto;
+  }
+}
+
+@media (max-width: 1000px) {
+  .container {
+    width: 95%;
+    margin: auto;
+  }
+}
+@media (max-width: 900px) {
+  .container {
+    width: 100%;
+    margin: auto;
+  }
+}

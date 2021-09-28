@@ -1,0 +1,35 @@
+.cover {
+  margin-top: 26px !important;
+  background-color: white;
+  margin: auto;
+  border-radius: 33px;
+  padding: 45px 20px 10px;
+  z-index: -1;
+}
+
+@media (min-width: 1000px) {
+  .cover {
+    width: 65%;
+    margin: auto;
+  }
+}
+
+@media (min-width: 800px) {
+  .cover {
+    width: 65%;
+    margin: auto;
+  }
+}
+@media (max-width: 800px) {
+  .cover {
+    width: 90%;
+    margin: auto;
+  }
+}
+
+@media (max-width: 750px) {
+  .cover {
+    width: 90%;
+    margin: auto;
+  }
+}
