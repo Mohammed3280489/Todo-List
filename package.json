@@ -2,7 +2,7 @@
   "name": "task-one",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://MohammedGhazal96.github.io/Todo-List",
+  "homepage": "http://MohammedGhazal96.github.io/Todo-Lists",
   "dependencies": {
     "@ant-design/icons": "^4.7.0",
     "@reduxjs/toolkit": "^1.6.1",

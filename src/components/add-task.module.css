@@ -18,10 +18,20 @@
   flex-wrap: wrap;
 }
 .container {
-  width: 61%;
+  width: 52%;
   background-color: #f5f5f5;
   border-radius: 20px;
-  padding: 10px 12px 10px;
+  padding: 10px 12px 12px;
+}
+@media (max-width: 1210px) {
+  .container {
+    width: 56%;
+  }
+}
+@media (max-width: 1133px) {
+  .container {
+    width: 62%;
+  }
 }
 
 @media (max-width: 567px) {
@@ -63,10 +73,10 @@
   height: 24px !important;
   color: #0ea990 !important;
   font-weight: 600;
-  margin-left: 30px;
+  margin-left: 35px;
 }
 
-@media (max-width: 762px) {
+@media (max-width: 770px) {
   .buttne_danger,
   .buttne_done {
     margin-top: 10px;
